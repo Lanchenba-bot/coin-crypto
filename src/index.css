@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+}
+
+.hello{appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+
+/* For IE <= 11 */
+/* select::-ms-expand {
+   display: none; */
+/* } */
+}
